@@ -1,5 +1,8 @@
 # GraphRAG on a Laptop
 
+<img width="1231" height="586" alt="image" src="https://github.com/user-attachments/assets/697fbc37-276c-4828-9c4e-ca212ccdc9e8" />
+
+
 **Companion code for the book *GraphRAG on a Laptop: Build, Break, and Honestly Measure an Ontology-Driven Question-Answering System with Neo4j and Ollama.***
 
 No GPU. No cloud. No hand-waving. Every script in this repository is the exact version that produced the book's lab record — including the round the graph lost.
