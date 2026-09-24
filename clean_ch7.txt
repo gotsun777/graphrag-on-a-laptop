@@ -1,0 +1,157 @@
+Verify current agency guidance and litigation status before relying on any entry. Facts verified as of August 2026.
+Federal Trade Commission: order against Rite Aid Corporation (December 2023; five-year prohibition on facial recognition
+surveillance use); “Operation AI Comply” enforcement sweep (announced September 2024), including the settlement with
+DoNotPay concerning “robot lawyer” claims
+Consumer Financial Protection Bureau, consent orders against Apple Inc. and Goldman Sachs Bank USA (October 2024)
+US Equal Employment Opportunity Commission, iTutorGroup settlement (2023); Mobley v. Workday, Inc. (N.D. Cal.)
+US Securities and Exchange Commission, settled charges against Delphia (USA) Inc. and Global Predictions Inc. (March
+2024)
+Equal Credit Opportunity Act and Fair Credit Reporting Act (adverse-action requirements applicable to algorithmic credit
+decisions)
+Executive Order, “Ensuring a National Policy Framework for Artificial Intelligence” (December 11, 2025); Department of
+Justice intervention in the xAI challenge to Colorado’s AI Act (April 2026); federal stay of enforcement (April 27, 2026)
+
+C H A P T E R   7
+The United States II:
+The State Layer in Motion
+The decision this chapter supports. What to actually build against a state landscape that changed shape in a single
+spring — and how to plan when the most ambitious statute in the country was repealed seven weeks before taking effect.
+In this chapter. The Colorado story as the defining case study of 2026; the statutes in force and scheduled as of August
+2026; and the planning rules that survive the volatility.
+7.1 Colorado: the case study of 2026
+Colorado’s SB 24-205, signed May 17, 2024, was the first comprehensive state AI act and the closest American cousin of the
+EU model: a duty of reasonable care against algorithmic discrimination, risk management programs, impact assessments,
+and attorney-general reporting for high-risk systems in consequential decisions. It never took effect. Its start date was
+pushed from February 1, 2026 to June 30, 2026; in April 2026 xAI sued on constitutional grounds and the Department of
+Justice intervened in support; on April 27, 2026 a federal magistrate judge stayed enforcement; and on May 14, 2026,
+Governor Polis signed SB 26-189, repealing and replacing the original act with a substantially narrower framework —
+advance notice, post-decision disclosures, and consumer rights around automated decision-making technology (ADMT)
+used in consequential decisions, enforced by the attorney general — effective January 1, 2027, with the original act’s duty
+of care, risk-management mandates, and impact-assessment obligations eliminated.
+SB 24-205 signed
+May 17, 2024 — first
+comprehensive state AI act
+Federal EO issued
+Dec 11, 2025 — agencies directed
+to challenge state AI laws
+Enforcement stayed
+Apr 27, 2026 —
+federal magistrate order
+SB 26-189 effective
+Jan 1, 2027 — ADMT
+disclosure regime
+Twice delayed
+Feb 1, 2026 → Jun 30, 2026
+(SB 25B-004)
+xAI sues · DOJ intervenes
+April 2026 — constitutional
+challenge, federal support
+Repealed & replaced
+May 14, 2026 — SB 26-189
+signed; original never in effect
+The most ambitious AI statute in the United States was repealed seven weeks before its effective date.
+Figure 7.1. The Colorado arc, 2024–2027. The capabilities the original act demanded —
+inventory, disclosure, bias testing — survived into its replacement and into every other
+regime; only the statutory superstructure changed.
+Three lessons transfer beyond Colorado. First, the EU-style comprehensive model is, for now, in retreat at the US state level
+— the surviving statutes cluster around transparency, disclosure, and specific prohibited uses rather than full management-
+system mandates. Second, federal pressure is a real variable: the December 2025 executive order and DOJ’s intervention
+shaped the outcome. Third — and most important for planning — the organizations that had built inventories, classifications,
+
+and disclosure capability lost nothing when the statute changed, because those capabilities are what the replacement law
+requires and what every other regime requires too. The companies that lost effort were those that had built to one statute’s
+paperwork instead of to the underlying capability.
+7.2 The map as of August 2026
+INSTRUMENT
+STATUS
+WHAT IT DOES
+Texas TRAIGA
+(HB 149)
+In force
+Jan 1, 2026
+Intent-based prohibitions — AI developed or deployed to
+manipulate behavior, unlawfully discriminate, incite harm, or
+produce CSAM deepfakes — with obligations concentrated on
+government use after legislative narrowing; adherence to the NIST
+AI RMF operates as a safe harbor
+California AB 2013
+In force
+Jan 1, 2026
+Generative AI training-data transparency: public documentation of
+the datasets used to train generative systems made available to
+Californians
+California SB 53
+In force
+Jan 1, 2026
+Frontier-model transparency and safety framework for large
+developers
+California SB 942
+Operative
+Aug 2, 2026
+AI Transparency Act: covered generative AI providers (over one
+million monthly users) must offer a free AI-content detection tool
+and embed manifest and latent provenance disclosures; date
+moved from January 2026 by AB 853, with hosting-platform duties
+following January 1, 2027
+California CPPA ADMT rules
+Phased
+2026–2027
+Risk-assessment requirements from January 1, 2026 under the
+CCPA framework, with pre-use notices and consumer opt-out rights
+for automated decision-making taking effect January 1, 2027
+Colorado SB 26-189
+Effective
+Jan 1, 2027
+ADMT disclosure regime replacing SB 24-205: advance notice,
+post-decision disclosure, and consumer rights in consequential
+decisions; attorney-general enforcement; implementation details
+left to rulemaking, with related enforcement questions still in
+federal litigation
+Illinois HB 3773
+In force
+Jan 1, 2026
+Amends the Illinois Human Rights Act to make discriminatory use
+of AI in employment decisions a civil rights violation, with notice
+requirements
+NYC Local Law 144
+In force
+since 2023
+Independent bias audits, publication of results, and candidate
+notice for automated employment decision tools used on NYC
+candidates and employees
+Utah AI Policy Act
+(SB 149, as amended)
+In force
+(2024, amended
+2025)
+Generative-AI disclosure duties, with heightened rules for
+regulated occupations and mental-health chatbots
+
+7.3 Planning against volatility
+The temptation this landscape invites is paralysis — why build against statutes that may be repealed, stayed, or preempted?
+The answer is that the volatility is concentrated in the statutory superstructure, not in the underlying demands. Across
+every version of every state law in the table, the same four capabilities recur: knowing which systems make or shape
+consequential decisions; telling affected people that automation is involved; being able to explain and review an adverse
+outcome; and testing for discriminatory effect. Those are, respectively, Know, Prove, Control, and Control again — and they
+are simultaneously what the EU requires, what Korea requires, and what federal agencies already enforce under old law.
+Build the capability, and statutory churn becomes a mapping exercise; build to a single statute’s forms, and every
+amendment is a fire drill.
+State AI law changed materially during 2026; verify current status, including litigation, before relying on any entry. Facts
+verified as of August 2026.
+Colorado SB 24-205 (2024) and its postponements (to February 1, 2026, then June 30, 2026 via SB 25B-004); federal stay
+of enforcement, April 27, 2026, in the xAI litigation with DOJ intervention; Colorado SB 26-189, signed May 14, 2026,
+effective January 1, 2027 (ADMT disclosure framework replacing the original act)
+Texas HB 149 (Responsible Artificial Intelligence Governance Act), effective January 1, 2026, including its prohibited-use
+categories and NIST AI RMF safe harbor
+California AB 2013 (generative AI training-data transparency) and SB 53 (frontier-model transparency and safety),
+effective January 1, 2026; SB 942 (California AI Transparency Act), operative August 2, 2026 as amended by AB 853
+(2025), with hosting-platform obligations from January 1, 2027; California Privacy Protection Agency ADMT regulations
+(risk assessments from January 1, 2026; ADMT notice and opt-out provisions from January 1, 2027)
+Illinois HB 3773 (amendments to the Illinois Human Rights Act), effective January 1, 2026
+New York City Local Law 144 of 2021 (automated employment decision tools), enforced since July 2023
+Utah SB 149 (AI Policy Act, 2024), as amended in 2025
+Executive Order, “Ensuring a National Policy Framework for Artificial Intelligence” (December 11, 2025)
+Fifty-state whack-a-mole: assigning counsel to track every bill and treating each new law as a separate
+project. The durable posture is one national baseline — disclosure of automated decisions, bias testing,
+adverse-action explainability — set at the strictest applicable requirement, with a short jurisdiction-specific
+delta list on top.

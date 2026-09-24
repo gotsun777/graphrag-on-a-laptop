@@ -1,0 +1,245 @@
+THE EXECUTIVE’S PROBLEM
+Why AI governance became a board issue, the framework that
+organizes the response, and where accountability actually sits.
+
+C H A P T E R   1
+Why AI Governance Is Now a Board Issue
+The decision this chapter supports. Whether to treat AI governance as a compliance line item delegated downward, or
+as a standing item of board-level risk oversight with dedicated ownership and budget. The evidence assembled here
+supports the second answer.
+In this chapter. The enforcement record that moved AI from a technology question to a governance question; the two-sided
+regulatory reality (new AI-specific law layered on old law that already applies); the asymmetry between the cost of proactive
+governance and the cost of the documented failures; and the affirmative business case that has emerged alongside the
+defensive one.
+1.1 The enforcement record is no longer hypothetical
+For most of the last decade, AI risk was discussed in the conditional tense: what could go wrong, what a regulator might one
+day do. That era is over. The record that now exists is a record of completed enforcement actions, court rulings, settlements,
+and resignations, and it spans every category of consequence a board is charged with overseeing — financial, legal,
+operational, and reputational.
+Consider what the documented record already contains. In the United States, the Equal Employment Opportunity
+Commission settled its first AI-related hiring discrimination case in 2023: iTutorGroup agreed to pay $365,000 after the
+agency alleged that its application software automatically rejected female applicants aged 55 and older and male applicants
+aged 60 and older. The dollar figure was modest; the precedent was not. It established that an algorithm’s screening
+decision is the employer’s screening decision, and that intent is not required for liability. The point was reinforced when a
+federal court in California allowed Mobley v. Workday to proceed — a discrimination action against a software vendor whose
+AI screening tools were alleged to disadvantage applicants on the basis of age, race, and disability. The court’s willingness
+to treat an AI vendor as potentially liable in the hiring chain redrew the risk map for every company that buys, rather than
+builds, its AI.
+Financial regulators have moved as well. In October 2024, the Consumer Financial Protection Bureau ordered Apple and
+Goldman Sachs to pay a combined sum exceeding $89 million in penalties and consumer redress over failures in the
+Apple Card program, including dispute-handling breakdowns rooted in the automated systems that processed customer
+interactions. The same program had earlier been investigated by the New York State Department of Financial Services after
+public allegations of gender bias in credit limits; the regulator found no unlawful discrimination under fair lending law, but
+its report faulted the program’s transparency and customer service — a reminder that an algorithm can survive a bias
+inquiry and still generate an enforcement file. Meanwhile the Securities and Exchange Commission opened a new front in
+2024 with its first “AI washing” actions, charging two investment advisers — Delphia and Global Predictions — with
+making false and misleading statements about their use of AI, and collecting $400,000 in combined civil penalties. The
+message to public-company boards was unambiguous: statements about AI capability are now securities statements.
+In Europe, the enforcement machinery predates the AI Act, because the GDPR already reaches most of what AI systems do
+with personal data. The Irish Data Protection Commission’s €1.2 billion fine against Meta in May 2023 — the largest GDPR
+fine on record, concerning unlawful transfers of European user data to the United States — demonstrated the scale the
+regime can reach. AI-specific applications followed: the Italian data protection authority, the Garante, temporarily banned
+ChatGPT in 2023 pending privacy remediations and in December 2024 fined OpenAI €15 million over the legal basis and
+transparency of its data processing. Biometric AI has proven especially costly: Clearview AI, which scraped billions of facial
+images to build a recognition database, has accumulated multi-million-euro fines across European authorities and agreed to
+a settlement valued at roughly $50 million in United States litigation under Illinois’s Biometric Information Privacy Act.
+
+Korea’s enforcement history is shorter but pointed, and it arrived early. In April 2021, the Personal Information Protection
+Commission fined Scatter Lab, developer of the conversational chatbot “Lee Luda” (Iruda), 103.3 million won for
+building the service on private KakaoTalk messages collected through its earlier apps for a different purpose — the
+country’s first sanction against an AI service for personal-data misuse — and its corrective orders reached the unlawfully
+processed data itself, not merely the balance sheet. The case fixed the PIPC’s posture years before Korea’s AI Basic Act
+existed: training data is regulated data, remedies can reach the model, and a consumer backlash can end a product faster
+than any regulator. The service was withdrawn within weeks of launch.
+The record extends beyond fines to the failures that end careers and governments. The Dutch childcare benefits scandal
+— in which an algorithmic risk-scoring system used by the tax administration wrongly accused thousands of families,
+disproportionately those with dual nationality, of fraud — contributed to the resignation of the entire Dutch cabinet in
+January 2021 and remains the canonical demonstration that algorithmic harm scales administratively: one flawed model,
+applied uniformly, manufactures injustice at a volume no human process could match. In the United States, the documented
+wrongful arrests of Robert Williams and Porcha Woodruff in Detroit, both driven by erroneous facial recognition matches,
+put faces on the same lesson.
+2020
+2021
+2023
+2024
+2025
+2026
+Dutch cabinet resigns
+childcare benefits algorithm
+Meta — €1.2B GDPR fine
+largest on record (transfers)
+SEC “AI washing” — $400K
+Delphia & Global Predictions
+Clearview AI — ~$50M
+Illinois BIPA settlement
+Wrongful arrest (Williams)
+facial recognition, Detroit
+PIPC – Scatter Lab
+KRW 103M — first AI data sanction
+EEOC – iTutorGroup $365K
+first AI hiring-bias settlement
+CFPB — $89M+ order
+Apple / Goldman Sachs card
+Garante – OpenAI €15M
+legal basis & transparency
+Korea AI Basic Act (Jan)
+EU Digital Omnibus (Jul)
+Figure 1.1. Selected documented AI enforcement actions and regulatory milestones,
+2020–2026. Every enforcement action shown was brought under law that predates any AI-
+specific statute; the 2026 milestones mark the arrival of the comprehensive AI regimes.
+1.2 Two-sided regulation: new law layered on old law
+Executives sometimes draw comfort from the observation that AI-specific statutes are new and, in places, delayed. The
+comfort is misplaced, because AI regulation is two-sided. On one side stand the new horizontal regimes — the EU AI Act
+chief among them — which arrive on published timetables and can be planned for. On the other side stands the entire
+Which of our deployed AI systems, if it failed the way the systems in this section failed, would produce a
+regulatory action, a lawsuit, or a headline — and who in this organization owns that system today?
+
+existing body of law, which already applies to AI systems today and always has: data protection law, consumer protection
+law, anti-discrimination law, financial services regulation, product liability, and securities law. Every enforcement action
+described in the previous section was brought under old law. Not one required an AI act.
+• GDPR and privacy law
+• Anti-discrimination and employment law
+• Consumer protection (FTC, CFPB)
+• Securities and financial regulation
+• EU AI Act (Reg. 2024/1689)
+• Digital Omnibus on AI (Reg. 2026/1744)
+• Korea AI Basic Act (Act No. 20676)
+• US state AI statutes (CO, TX, NYC…)
+YOUR AI SYSTEMS
+one governance program must satisfy both layers
+Figure 1.2. Two-sided regulation. Enforcement to date has come entirely from the left
+layer; the right layer adds obligations on published dates. Governance must be designed
+against both simultaneously.
+The new layer is nonetheless consequential, and its calendar has just been redrawn. The EU AI Act — Regulation (EU)
+2024/1689, the world’s first comprehensive horizontal AI statute — entered into force in August 2024 with staggered
+application: prohibitions on certain practices from February 2025, obligations for general-purpose AI model providers from
+August 2025, and the demanding high-risk regime originally scheduled for August 2026. In July 2026, the Digital Omnibus
+on AI (Regulation (EU) 2026/1744) deferred the high-risk obligations — to December 2, 2027 for standalone Annex III
+systems and to August 2, 2028 for AI embedded in products already covered by EU product-safety law — while leaving the
+prohibitions, the general-purpose AI obligations, and the Article 50 transparency and AI-content-labeling duties on their
+original dates. Chapter 4 treats the details. What matters at board level is the shape of the situation: the deferral bought
+implementation time, not exemption, and the penalty ceiling that awaits — up to €35 million or 7 percent of global
+annual turnover for prohibited practices — sits above even the GDPR’s 4 percent maximum.
+
+already applicable
+upcoming
+Feb 2, 2025
+Art. 5 prohibitions;
+Art. 4 AI literacy
+Aug 2, 2025
+GPAI provider obligations
+(Arts. 51–56)
+Aug 2, 2026
+general application; Art. 50
+transparency & labeling
+Dec 2, 2027
+Annex III high-risk systems
+(standalone)
+Aug 2, 2028
+Annex I high-risk
+(product-embedded)
+deferred by Digital Omnibus (Reg. 2026/1744)
+as of Aug 2026
+Figure 1.3. The EU AI Act compliance calendar after the July 2026 Digital Omnibus.
+Prohibitions, GPAI duties, and Article 50 transparency remain on their original dates; the
+high-risk regime moves to late 2027 and 2028.
+In the United States, no federal AI act exists, and none is imminent. What exists instead is enforcement by interpretation —
+the FTC, CFPB, EEOC, SEC, and state attorneys general applying their existing statutes to AI conduct — plus an
+accelerating layer of state legislation, from Colorado’s first-in-the-nation comprehensive AI act to New York City’s bias-audit
+mandate for automated hiring tools. Chapters 6 and 7 map that terrain. The governance implication is the same on both
+continents: an organization cannot wait for regulatory certainty, because the operative rules already apply, and the new
+ones arrive on dates that are known.
+Korea completed the trio in January 2026. The AI Basic Act (Act No. 20676) and its Enforcement Decree took effect on
+January 22, 2026, making Korea the second jurisdiction after the EU with a comprehensive horizontal AI statute — one
+that applies extraterritorially to foreign operators whose AI products or services affect the Korean market. The Act imposes
+advance-notice and labeling duties on generative AI, lifecycle safety and reliability obligations on “high-impact” AI in
+domains such as employment, healthcare, finance, and public services, and additional safety duties on “high-performance”
+AI above a compute threshold of 10^26 FLOPs. Administrative fines are modest — capped at 30 million won — and the
+Ministry of Science and ICT is operating a grace period of at least one year, deferring fines except in cases of serious social
+harm. But the structural signal outweighs the penalty arithmetic: for any company serving Korean users, AI governance is
+now a market-entry condition, larger foreign operators must designate a domestic representative, and Korea’s privacy
+regulator has already shown that its remedies can reach the model itself. Chapter 8 treats the regime in full.
+1.3 The cost asymmetry
+Boards allocate against expected cost, so the economics deserve to be stated plainly. On the cost-of-failure side, the figures
+in Section 1.1 are floors, not ceilings: they are what enforcement has already collected, before the EU AI Act’s penalty
+regime becomes fully operative and before US state statutes mature into enforcement. To the direct penalties must be
+The question “is AI regulated yet?” is malformed. Existing law has always applied to AI and is being actively
+enforced; the new AI-specific regimes add obligations on published timetables. Governance must satisfy both
+layers simultaneously.
+
+added litigation and settlement costs, remediation under regulatory supervision, the operational cost of systems withdrawn
+from production, and the commercial cost of lost enterprise customers — because AI governance questionnaires are now a
+standard component of B2B procurement, and a deal lost to a failed diligence review never appears in any enforcement
+statistic.
+Named research adds a quantified dimension on the security-adjacent portion of the risk. IBM’s Cost of a Data Breach
+Report 2025 found that breaches involving ungoverned, unsanctioned “shadow AI” carried materially higher costs than the
+global average, and that a substantial share of organizations suffering AI-related security incidents lacked basic AI access
+controls and governance policies — a direct, measured link between the absence of governance and the size of the loss.
+Stanford University’s AI Index has documented a sustained year-over-year rise in publicly reported AI incidents alongside
+a sharp acceleration in legislative activity, which is to say: the hazard rate and the enforcement capacity are rising together.
+On the cost-of-governance side, the required investment is real but bounded and largely front-loaded: an inventory and
+classification exercise, a governance function with named ownership, assessment and testing processes proportionate to
+risk tiers, and an evidence layer. Part III of this book prices and sequences that build over twelve months. The asymmetry is
+structural: governance cost is planned, incremental, and capitalizable into every subsequent AI deployment, while failure
+cost is unplanned, concentrated, and compounding. One is a budget line; the other is a contingency you do not control.
+1.4 The affirmative case
+The defensive case would suffice, but it understates the position, because governance has become a commercial capability.
+Three mechanisms drive this. First, procurement: enterprise buyers, prompted by their own regulatory exposure, now
+interrogate their vendors’ AI governance as a condition of contract, and a documented, audit-ready program shortens sales
+cycles that an undocumented one stalls. Second, deployment velocity: organizations with a functioning classification and
+gating process approve low-risk AI uses quickly and confidently, while organizations without one either freeze all adoption
+out of generalized fear or approve everything out of ignorance — both of which are competitive failures. Third, capital
+markets and M&A: AI governance has entered diligence checklists, and the ability to produce a system inventory, risk
+classifications, and assessment records on request is now a component of enterprise value, much as security certifications
+did a decade ago.
+The chapter’s conclusion is the book’s premise: AI governance belongs on the board agenda not because regulation
+demands ritual attention, but because the organization’s exposure and its opportunity now run through the same set of
+systems, and both are governable. The next chapter supplies the framework for governing them.
+The documented record through 2026 includes a €1.2 billion data protection fine, an $89 million consumer
+finance order, multi-million-dollar biometric settlements, the first AI-discrimination settlements and vendor-
+liability rulings in US employment law, securities penalties for overstated AI claims, and a governmental
+collapse triggered by an algorithm. Every one of these was preventable at the governance layer.
+Treating AI governance as an annual policy-approval exercise. The documented failures in this chapter were
+not caused by absent policies; they were caused by absent inventories, absent owners, absent testing, and
+absent evidence. A policy without those four is a press release.
+
+The following primary instruments, enforcement actions, and named research underlie this chapter’s factual claims. Statutes
+are amended in place and guidance is superseded; verify the operative text and the most recent regulatory guidance before
+relying on any entry. Facts verified against primary and authoritative secondary sources as of August 2026.
+Regulation (EU) 2024/1689 (EU AI Act), including Article 5 (prohibited practices), Articles 50–56 (transparency and
+general-purpose AI obligations), and Article 99 (penalty tiers up to €35 million or 7 percent of global annual turnover)
+Regulation (EU) 2026/1744 (Digital Omnibus on AI), published in the Official Journal on July 24, 2026 and in force July 27,
+2026: deferral of Annex III high-risk obligations to December 2, 2027 and Annex I product-embedded obligations to
+August 2, 2028; Article 50 transparency duties retained on the August 2, 2026 date
+Regulation (EU) 2016/679 (GDPR), Article 83 (administrative fines up to €20 million or 4 percent of global annual
+turnover)
+Irish Data Protection Commission decision against Meta Platforms Ireland, May 2023 (€1.2 billion fine concerning EU–US
+data transfers)
+Garante per la Protezione dei Dati Personali: temporary limitation on ChatGPT processing (March 2023) and fine of €15
+million against OpenAI (December 2024)
+US Equal Employment Opportunity Commission, settlement with iTutorGroup, 2023 ($365,000; age-based automated
+rejection of applicants)
+Mobley v. Workday, Inc. (N.D. Cal.): rulings permitting discrimination claims against an AI screening vendor to proceed
+Consumer Financial Protection Bureau, consent orders against Apple Inc. and Goldman Sachs Bank USA, October 2024
+(combined penalties and redress exceeding $89 million concerning the Apple Card program)
+New York State Department of Financial Services, Report on the Apple Card Investigation, March 2021 (no finding of
+unlawful discrimination under fair lending law; transparency and customer-service deficiencies identified)
+US Securities and Exchange Commission, settled charges against Delphia (USA) Inc. and Global Predictions Inc., March
+2024 (combined civil penalties of $400,000 for misleading AI-capability statements)
+Clearview AI: settlement of Illinois Biometric Information Privacy Act litigation valued at approximately $50 million, and
+administrative fines by multiple European data protection authorities
+Parliamentary inquiry and cabinet resignation in the Netherlands, January 2021, concerning the childcare benefits
+scandal (algorithmic risk scoring by the Dutch tax administration)
+Documented facial recognition wrongful arrest cases: Robert Williams (Detroit, 2020) and Porcha Woodruff (Detroit,
+2023)
+Personal Information Protection Commission (Korea), sanction against Scatter Lab Inc., April 2021 (103.3 million won in
+fines and penalty surcharges concerning the “Lee Luda” chatbot; unlawful use of messenger data for AI training;
+corrective orders reaching the unlawfully processed data)
+Act No. 20676 (Korea AI Basic Act) and Presidential Decree No. 36053 (Enforcement Decree), in force January 22, 2026:
+extraterritorial application; generative AI notice and labeling duties; high-impact AI obligations; high-performance AI
+compute threshold of 10^26 FLOPs; administrative fines capped at 30 million won; MSIT grace period of at least one year
+for fines except in cases of serious social harm
+IBM, Cost of a Data Breach Report 2025 (elevated costs associated with shadow AI; prevalence of missing AI access
+controls and governance policies among affected organizations)
+Stanford University Institute for Human-Centered AI, AI Index Report (documented rise in AI incident counts and in
+legislative activity)

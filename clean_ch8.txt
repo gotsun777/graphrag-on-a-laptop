@@ -1,0 +1,108 @@
+C H A P T E R   8
+Korea: The AI Basic Act and PIPA
+The decision this chapter supports. Whether and how to treat Korea as a first-order governance jurisdiction — which, for
+any organization with Korean users, revenue, or operations, it now is: the world’s second comprehensive horizontal AI
+regime is in force there today.
+In this chapter. A structured entry on the AI Basic Act; the three regulated categories — generative, high-impact, and
+high-performance AI; the grace period and what it does not suspend; the domestic-representative mechanism; and the
+privacy layer under PIPA and the PIPC.
+8.1 The regime in one view
+Instrument
+Act on the Development of Artificial Intelligence and the Establishment of a Foundation for
+Trust (AI Basic Act), Act No. 20676, with its Enforcement Decree (Presidential Decree No.
+36053)
+Jurisdiction & reach
+Republic of Korea; extraterritorial — applies to foreign businesses whose AI activities affect the
+Korean market and its users
+In force
+January 22, 2026 (Act and Enforcement Decree)
+Regulator
+Ministry of Science and ICT (MSIT), with subordinate notifications and guidelines; the Personal
+Information Protection Commission (PIPC) governs the parallel privacy layer
+Architecture
+Dual-purpose statute: industrial promotion (funding, talent, clusters) combined with trust
+obligations on three categories — generative AI (advance notice and labeling), high-impact AI
+(lifecycle safety, reliability, and assessment duties in domains including employment,
+healthcare, financial services, public safety, and education), and high-performance AI
+(additional safety duties above 10^26 FLOPs of cumulative training compute)
+Penalties & posture
+Administrative fines capped at 30 million won; MSIT is operating a grace period of at least one
+year from entry into force, deferring fact-finding investigations and fines except in exceptional
+cases involving serious social harm
+Executive
+implication
+Compliance is a market-entry condition, not a penalty calculation: the duties apply now, the
+grace period is prosecutorial forbearance rather than suspension, and the reputational lever —
+in a market whose regulator has ordered remedies reaching models and data — exceeds the
+fine schedule
+8.2 Three categories, three duty sets
+The Act’s operative logic is categorical, and an executive needs only the three categories. Generative AI carries
+transparency duties: users must be notified in advance that they are dealing with generative AI, and AI-generated content
+must be labeled, with the Enforcement Decree specifying the form and content of the disclosures. High-impact AI —
+systems that materially affect life, safety, or fundamental rights in enumerated domains such as employment, healthcare,
+
+financial services, public safety, and education — carries the heaviest duties: lifecycle risk management, impact assessment,
+safety and reliability measures, and the ability to request MSIT confirmation of whether a given system qualifies. High-
+performance AI, defined by the Decree’s compute threshold of 10^26 cumulative FLOPs — set roughly an order of
+magnitude above the EU’s general-purpose systemic-risk threshold — carries additional safety obligations aimed at frontier-
+scale developers, with safety-measure results submitted to the authorities.
+GENERATIVE AI
+advance notice to users
+labeling of AI-generated content
+disclosure form per Decree
+broadest population of systems
+HIGH-IMPACT AI
+employment · healthcare · finance
+public safety · education
+lifecycle risk mgmt · impact
+assessment · safety measures
+heaviest duty set
+HIGH-PERFORMANCE AI
+cumulative training compute
+at or above 10^²⁶ FLOPs
+additional safety duties;
+results submitted to authorities
+frontier developers
+EXTRATERRITORIAL · IN FORCE JAN 22, 2026 · FINES DEFERRED ≥1 YEAR EXCEPT SERIOUS SOCIAL HARM
+one system can sit in more than one category — duties cumulate
+Figure 8.1. Korea’s AI Basic Act regulates by category. A generative system used for
+hiring is both generative AI and high-impact AI, and carries both duty sets.
+8.3 The domestic representative and the foreign operator
+The Enforcement Decree gives the Act an in-country enforcement anchor. Foreign operators meeting specified thresholds —
+including one trillion won in total prior-year revenue, ten billion won in AI-service revenue, or an average of one million
+daily Korean users over the preceding three months — must designate a domestic representative with a Korean address
+or place of business, who represents and supports the operator in submitting large-scale AI safety-measure results,
+requesting high-impact AI identification, and implementing high-impact safety and reliability measures. For a global
+enterprise, this is Chapter 3’s accountability doctrine written into foreign statute: Korea has created a named seat of
+accountability inside its borders and expects a person in it. Smaller operators below the thresholds are outside the
+representative requirement but not outside the Act, whose substantive duties apply from the January 2026 date regardless.
+8.4 The privacy layer: PIPA and the PIPC
+Running in parallel with the AI Basic Act is Korea’s Personal Information Protection Act, substantially strengthened in
+recent years, and its regulator, the PIPC — the authority that produced the Scatter Lab precedent of Chapter 1 and that has
+since issued guidelines addressed specifically to generative AI development and deployment, functioning as a lifecycle
+rulebook: legal-basis documentation for training data, pseudonymization expectations, input and output filtering controls,
+and privacy-officer-led governance over generative AI systems. PIPA requires organizations to designate a privacy officer
+responsible for data protection, giving the privacy layer its own named seat of accountability alongside the AI Basic Act’s
+domestic representative. The practical consequence for program design is the same one Chapter 5 drew for Europe: the
+privacy artifacts — lawful basis analysis, assessments, filtering controls — are the foundation on which AI Basic Act
+compliance is assembled, not a separate workstream beside it.
+
+Korean subordinate notifications and guidelines continue to be refined; verify the operative texts and current MSIT and PIPC
+guidance before relying on any entry. Facts verified as of August 2026.
+Act No. 20676 (AI Basic Act) and Presidential Decree No. 36053 (Enforcement Decree), both in force January 22, 2026
+Enforcement Decree provisions on: generative AI advance-notice and labeling duties; the high-performance AI compute
+threshold of 10^26 cumulative FLOPs; and domestic-representative designation thresholds (including one trillion won total
+prior-year revenue, ten billion won AI-service revenue, or one million average daily Korean users over three months)
+High-impact AI domains including employment, healthcare, financial services, public safety, and education, with lifecycle
+risk management, impact assessment, and compliance duties
+MSIT enforcement posture: administrative fines capped at 30 million won; grace period of at least one year deferring
+investigations and fines except in exceptional cases involving serious social harm (e.g., loss of life or human-rights
+violations)
+Personal Information Protection Act (PIPA), including privacy-officer designation; PIPC guidelines addressed to generative
+AI development and deployment; PIPC corrective orders in the Scatter Lab matter (April 2021)
+Do we meet any of Korea’s domestic-representative thresholds — and if we serve Korean users at all, who has
+verified that our generative AI notice and labeling duties, in force since January 2026, are actually
+implemented in the Korean-facing product?
+Korea’s fines are small and deferred; its regime is neither. The duties are in force, the reach is extraterritorial,
+the regulator has a documented record of remedies that reach models and data, and for the Korean market AI
+governance is now a condition of entry.

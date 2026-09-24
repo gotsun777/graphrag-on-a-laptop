@@ -1,0 +1,118 @@
+THE THREE REGIMES
+The EU AI Act after the Omnibus, the GDPR applied to AI, US
+federal enforcement, US state law, Korea’s AI Basic Act — and
+how one program satisfies all of them.
+
+C H A P T E R   4
+The EU AI Act After the Omnibus
+The decision this chapter supports. How to allocate effort against the EU AI Act’s re-drawn calendar: what must be
+operating now, what the deferral to late 2027 buys, and what to build during the window rather than after it closes.
+In this chapter. A structured entry on Regulation (EU) 2024/1689; the risk-tier architecture; what the July 2026 Digital
+Omnibus changed and what it deliberately left in place; the high-risk regime as a build specification; and the general-
+purpose AI layer that reaches model providers directly.
+4.1 The regulation in one view
+Instrument
+Regulation (EU) 2024/1689 (EU AI Act), as amended by Regulation (EU) 2026/1744 (Digital
+Omnibus on AI)
+Jurisdiction & reach
+European Union; extraterritorial — reaches providers placing AI systems on the EU market and
+providers/deployers whose system outputs are used in the EU, wherever the operator is
+established
+In force
+August 1, 2024, with staggered application (see 4.2); Omnibus amendments in force July 27,
+2026
+Regulators
+National market surveillance authorities; the European Commission’s AI Office for general-
+purpose AI models
+Architecture
+Risk-tiered: prohibited practices (Art. 5); high-risk systems (Art. 6, Annexes I and III) with
+provider duties (Arts. 9–17) and deployer duties (Art. 26); transparency cases (Art. 50); general-
+purpose AI models (Arts. 51–56); minimal risk unregulated
+Penalties
+Up to €35M or 7% of global annual turnover for prohibited practices; up to €15M or 3% for
+most other violations; up to €7.5M or 1% for supplying misleading information
+Executive
+implication
+The Act is a management-system statute: what it ultimately demands is a documented, tested,
+monitored governance apparatus — the Know-Own-Control-Prove build of Chapter 2, with EU-
+specific artifacts attached
+4.2 The calendar that matters
+The Act’s obligations arrive in waves, and the July 2026 Digital Omnibus re-set only some of them. Three waves are already
+operative. Since February 2, 2025, the Article 5 prohibitions apply — social scoring by public authorities, exploitative
+manipulation of vulnerable groups, untargeted scraping of facial images to build recognition databases, emotion recognition
+in workplaces and schools (with narrow exceptions), and related practices — alongside the Article 4 AI-literacy duty. Since
+August 2, 2025, general-purpose AI model providers carry the obligations of Articles 51–56, supported by the
+Commission’s GPAI Code of Practice published in July 2025. And from August 2, 2026, the Act applies generally, including
+the Article 50 transparency duties: people must be told when they interact with an AI system, and AI-generated or
+manipulated content — including deepfakes — must be disclosed and machine-readably marked.
+
+What the Omnibus moved is the high-risk regime. Obligations for standalone Annex III high-risk systems — the employment,
+credit, education, essential-services, and similar use cases — now apply from December 2, 2027; obligations for AI
+embedded in products already regulated under EU product-safety law (Annex I) apply from August 2, 2028. The Omnibus
+also added two new prohibited categories to Article 5 — systems that generate non-consensual intimate imagery and child
+sexual abuse material — with a grace period for the associated technical safeguards, and for the watermarking sub-
+obligation for systems already on the market before August 2026, running to December 2, 2026.
+The executive reading of this calendar is disciplined, not relaxed. The deferral was granted because the harmonized
+standards that give high-risk systems a presumption of conformity were not ready — the requirements themselves did not
+change, only the date on which they bite. An organization that treats December 2027 as a start date will attempt an
+eighteen-month build in six; an organization that treats it as a completion date runs the Chapter 12 roadmap once, calmly,
+and arrives with evidence in hand.
+4.3 The high-risk regime as a build specification
+For a company with any Annex III use case — hiring and worker management, credit scoring, education and vocational
+access, essential public and private services, and the other enumerated domains — the high-risk chapter of the Act is best
+read as an engineering and management specification with legal force. Providers must operate a risk management system
+across the lifecycle (Art. 9), meet data and data-governance requirements for training, validation, and testing sets (Art. 10),
+maintain technical documentation and automatic logging (Arts. 11–12), design for transparency to deployers and for
+effective human oversight (Arts. 13–14), and achieve appropriate accuracy, robustness, and cybersecurity (Art. 15), all
+within a quality management system (Art. 17), completing conformity assessment and EU database registration before
+placing the system on the market. Deployers carry their own duties under Article 26 — using systems per instructions,
+assigning competent human oversight, monitoring operation, and retaining logs — and, for certain deployers, a
+fundamental-rights impact assessment under Article 27.
+Mapped onto the framework of Chapter 2, nothing here is exotic: Articles 9–10 are Know and Control at the data layer;
+Articles 11–12 and 17 are Prove; Articles 13–14 and 26 are Own and Control at the point of use. The Act’s most common
+misreading at executive level is role confusion — assuming that buying rather than building exempts the organization. It
+does not: deployers have their own obligations, and a deployer that substantially modifies a high-risk system, or puts its
+name on it, can become a provider with the full provider stack. Chapter 13 returns to this in the vendor context.
+As of August 2026, the prohibitions, the AI-literacy duty, the GPAI obligations, and the Article 50 transparency
+and labeling duties are live. Only the high-risk apparatus moved — to December 2027 and August 2028 — and
+it moved because the standards were late, not because the requirements shrank.
+
+KNOW
+Art. 6 + Annex III — classification of the use case
+Art. 10 — data and data-governance requirements for training, validation, testing
+OWN
+Art. 14 — human oversight designed into the system
+Art. 26 — deployer duties: competent oversight assigned, use per instructions
+CONTROL
+Art. 9 — lifecycle risk management system
+Art. 15 — accuracy, robustness, and cybersecurity; monitoring in operation
+PROVE
+Arts. 11–12 — technical documentation and automatic logging; Art. 17 — quality management
+Conformity assessment and EU database registration before market placement
+Figure 4.1. The high-risk regime is the Know-Own-Control-Prove framework in statutory
+form. An organization that runs the Chapter 2 build holds most of these artifacts before the
+December 2027 date arrives.
+4.4 The general-purpose AI layer
+The Act regulates general-purpose AI models directly — a layer that matters to executives in two directions. If the
+organization provides such a model, Articles 51–56 impose technical documentation, information for downstream providers,
+a copyright policy, and a training-content summary, with additional systemic-risk obligations above the compute threshold
+the Act sets for models with systemic risk. If — far more commonly — the organization builds on someone else’s model, the
+same provisions define what documentation the organization is entitled to demand from its model vendor, which converts a
+statutory obligation into a procurement checklist. The GPAI Code of Practice gives providers a compliance vehicle; a buyer’s
+diligence question is simply whether its vendor has adhered to it, and what evidence accompanies the claim.
+Deferring all EU AI Act work because “high-risk doesn’t apply until 2027.” The Article 50 transparency and
+labeling duties apply from August 2026 to systems most enterprises already run — chatbots and generative
+content pipelines — and the prohibitions have applied since February 2025. The deferred deadline is the
+largest workstream, not the first one.
+Which of our products will trigger Article 50’s disclosure and labeling duties as of August 2026, and has
+anyone tested that the marking actually ships in production — not merely that a policy says it should?
+
+Verify the operative text and the most recent guidance before relying on any entry. Facts verified as of August 2026.
+Regulation (EU) 2024/1689 (EU AI Act): Articles 4, 5, 6, 9–17, 26, 27, 50, 51–56, 99; Annexes I and III
+Regulation (EU) 2026/1744 (Digital Omnibus on AI), published in the Official Journal July 24, 2026, in force July 27, 2026:
+deferral of Annex III obligations to December 2, 2027 and Annex I obligations to August 2, 2028; new Article 5
+prohibitions on non-consensual intimate imagery and child sexual abuse material generation, with associated technical-
+safeguard and watermarking grace periods to December 2, 2026
+European Commission, General-Purpose AI Code of Practice (July 2025), and the Article 51 framework for general-purpose
+AI models with systemic risk
+Penalty tiers per Article 99 (up to €35M/7%, €15M/3%, and €7.5M/1% of global annual turnover, respectively)

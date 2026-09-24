@@ -1,0 +1,155 @@
+C H A P T E R   9
+One Program, Three Regimes
+The decision this chapter supports. Whether to run jurisdiction-specific compliance programs or one integrated program
+mapped to all three regimes. This chapter argues — and shows — that the second is both cheaper and safer.
+In this chapter. The structural comparison across the EU, the US, and Korea; where the regimes converge and where they
+genuinely diverge; and the five design rules for a single global program.
+
+9.1 The comparison
+EUROPEAN UNION
+UNITED STATES
+KOREA
+Model
+Comprehensive horizontal
+statute (AI Act) atop mature
+data protection law (GDPR)
+No federal AI statute;
+agency enforcement under
+existing law plus a shifting
+state layer, now under
+federal preemption pressure
+Comprehensive
+horizontal statute (AI
+Basic Act) atop
+strengthened privacy law
+(PIPA)
+Risk vocabulary
+Prohibited / high-risk /
+transparency / minimal
+“Consequential decisions”
+and ADMT in state law;
+harm-based theories
+federally
+High-impact / generative
+/ high-performance
+Transparency & labeling
+Art. 50: interaction disclosure
+and machine-readable
+content marking, from Aug 2,
+2026
+California SB 942 detection
+tools and provenance (Aug
+2, 2026); state disclosure
+duties (UT, IL, NYC, CO
+from 2027)
+Generative AI advance
+notice and labeling, in
+force since Jan 22, 2026
+High-stakes uses
+Annex III regime: risk mgmt,
+data governance, oversight,
+conformity — from Dec 2,
+2027 / Aug 2, 2028
+Bias audits (NYC),
+employment discrimination
+liability (IL), ADMT notices
+and rights (CO 2027; CA
+CPPA 2027); ECOA/Title VII
+always
+High-impact AI lifecycle
+duties — in force since
+Jan 22, 2026
+Frontier / model layer
+GPAI obligations since Aug
+2025; systemic-risk tier
+California SB 53 frontier
+framework (2026)
+High-performance tier at
+10^26 FLOPs
+Maximum exposure
+€35M or 7% of global
+turnover (AI Act); €20M or
+4% (GDPR)
+No AI-specific cap;
+uncapped agency remedies,
+litigation, and orders that
+ban practices or reach
+systems
+Fines capped at KRW
+30M, deferred ≥1 year —
+but corrective powers
+and market access carry
+the real weight
+Named accountability
+Provider/deployer roles;
+controller accountability (Art.
+5(2) GDPR)
+Officer and board exposure
+via oversight doctrine and
+disclosure law (Ch. 3)
+Domestic representative
+for larger foreign
+operators; PIPA privacy
+officer
+9.2 Convergence, divergence, and the design consequence
+Read down the columns and the convergence is unmistakable: every regime demands to know which systems make
+consequential decisions, requires people to be told when AI is involved and content to be labeled, imposes heavier lifecycle
+duties on high-stakes uses, reaches the frontier model layer, and names a seat of accountability. Those demands are the
+Know-Own-Control-Prove framework restated three times in three statutory dialects — which is why Chapter 2 built the
+program on the demands rather than on any one statute. The genuine divergences are narrower and manageable: timing
+
+(Korea’s high-impact duties are live now, Europe’s high-risk regime lands in 2027–2028, the US state layer is in flux),
+penalty philosophy (European turnover-based fines versus American uncapped enforcement versus Korean forbearance-
+plus-corrective-power), and the American preemption fight, which has no European or Korean counterpart and requires
+monitoring rather than building.
+Five design rules follow for the single program. One inventory, classified once against the strictest applicable vocabulary,
+with EU, US, and Korean tags derived from it rather than maintained separately. One integrated assessment per high-
+stakes system — the GDPR DPIA extended with AI Act risk-management content, Korean high-impact assessment elements,
+and US bias-audit evidence — completed at the deployment gate. One transparency implementation: design interaction
+disclosure and content provenance once, to the union of Article 50, SB 942, and the Korean labeling rules, and ship it
+globally, because maintaining jurisdiction-specific disclosure logic costs more than over-complying. One evidence layer
+serving all regulators, because a document that satisfies the most demanding inquirer satisfies the rest. And one owner per
+obligation across jurisdictions — the accountability map of Chapter 3 with three regulatory addresses, not three maps.
+EUROPEAN UNION
+AI Act + GDPR — statute-led,
+turnover-scale fines,
+high-risk regime 2027–28
+UNITED STATES
+enforcement-led, uncapped
+remedies, volatile state layer
+under federal pressure
+KOREA
+AI Basic Act + PIPA — live now,
+small fines, strong corrective
+powers, market-entry condition
+ONE PROGRAM — KNOW · OWN · CONTROL · PROVE
+classified once against the strictest applicable vocabulary
+one inventory
+EU/US/KR tags derived
+one assessment
+integrated per system
+one disclosure build
+Art. 50 + SB 942 + KR
+one evidence layer
+serves every regulator
+one owner per duty
+three addresses, one map
+Figure 9.1. One program, three regulatory mappings. The five outputs are the design
+rules of Section 9.2; jurisdiction-specific work shrinks to a managed delta list on top of
+them.
+The three regimes differ in text, timing, and temperament, and hardly at all in anatomy. Classify once against
+the strictest vocabulary, assess once per system, disclose once to the union of the labeling rules, file evidence
+once, and name one owner per obligation. Jurisdiction-specific work then shrinks to a managed delta list.
+Are we running one AI governance program with three regulatory mappings, or three programs with three
+budgets — and if the latter, what would consolidation save, and who is accountable for proposing it?
+
+This chapter synthesizes the instruments verified in Chapters 4 through 8; the entries below are the primary anchors. Facts
+verified as of August 2026.
+Regulation (EU) 2024/1689 (EU AI Act) as amended by Regulation (EU) 2026/1744, and Regulation (EU) 2016/679 (GDPR)
+Executive Order, “Ensuring a National Policy Framework for Artificial Intelligence” (December 11, 2025); the state
+instruments listed in Chapter 7 (Texas HB 149; California AB 2013, SB 53, SB 942 as amended by AB 853, and CPPA
+ADMT regulations; Colorado SB 26-189; Illinois HB 3773; NYC Local Law 144; Utah SB 149 as amended)
+Act No. 20676 (Korea AI Basic Act) and Presidential Decree No. 36053; Personal Information Protection Act (PIPA)
+The five design rules in Section 9.2 are the author’s synthesis, offered as planning constructs rather than as measured
+research findings
+End of Part II · Part III — Building the Function — begins with Chapter 10: The Business Case and Governance ROI.

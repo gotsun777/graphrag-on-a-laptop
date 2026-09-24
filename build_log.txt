@@ -1,0 +1,101 @@
+[09-21 03:11:26] ========== 배치 시작 ==========
+[09-21 03:11:26] === ch8_korea 시작 (10887자, PDF p38-41) ===
+[09-21 10:07:28] === ch8_korea 완료: 416.0분 ===
+[09-21 10:07:28] === ch4_eu_ai_act 시작 (9596자, PDF p25-29) ===
+[09-21 10:07:28] !!! ch4_eu_ai_act 실패 — 다음 장으로 계속
+[09-21 10:07:28] ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 833, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 556, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+[09-21 10:07:28] === ch7_us_states 시작 (9238자, PDF p35-38) ===
+[09-21 10:08:09] !!! ch7_us_states 실패 — 다음 장으로 계속
+[09-21 10:08:09] ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 833, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 556, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+[09-21 10:08:09] === ch9_comparison 시작 (6726자, PDF p42-45) ===
+[09-21 10:08:18] !!! ch9_comparison 실패 — 다음 장으로 계속
+[09-21 10:08:18] ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 833, in call_soon
+    self._check_closed()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.3824.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 556, in _check_closed
+    raise RuntimeError('Event loop is closed')
+RuntimeError: Event loop is closed
+
+[09-21 10:08:18] ========== 배치 전체 종료 ==========
+[09-21 20:57:23] Neo4j 연결 확인
+[09-21 20:58:28] Neo4j 연결 확인
+[09-21 20:58:28] ========== 배치 v2 시작 ==========
+[09-21 20:58:28] === ch4_eu_ai_act 시작 (9596자, PDF p25-29) ===
+[09-22 00:02:38] === ch4_eu_ai_act 완료: 184.2분 ===
+[09-22 00:02:38] === ch7_us_states 시작 (9238자, PDF p35-38) ===
+[09-22 03:56:16] === ch7_us_states 완료: 233.6분 ===
+[09-22 03:56:16] === ch9_comparison 시작 (6726자, PDF p42-45) ===
+[09-22 06:37:32] === ch9_comparison 완료: 161.3분 ===
+[09-22 06:37:32] ========== 배치 v2 종료 ==========
+[09-23 13:50:51] Neo4j 연결 확인
+[09-23 13:50:51] --- ROUND 2 그래프 스냅샷 (초기화 직전) ---
+[09-23 13:50:51]   ['__KGBuilder__', 'Regulation', '__Entity__']: 36
+[09-23 13:50:51]   ['__KGBuilder__', 'Chunk']: 34
+[09-23 13:50:51]   ['__KGBuilder__', '__Entity__', 'Obligation']: 19
+[09-23 13:50:51]   ['__KGBuilder__', '__Entity__', 'AISystem']: 18
+[09-23 13:50:51]   ['__KGBuilder__', '__Entity__', 'RiskCategory']: 17
+[09-23 13:50:51]   ['__KGBuilder__', '__Entity__', 'Organization']: 16
+[09-23 13:50:51]   ['__KGBuilder__', '__Entity__', 'Role']: 13
+[09-23 13:50:51]   ['__KGBuilder__', '__Entity__', 'Jurisdiction']: 12
+[09-23 13:50:51]   ['__KGBuilder__', '__Entity__', 'EnforcementAction']: 6
+[09-23 13:50:51]   ['__KGBuilder__', 'Document']: 5
+[09-23 13:50:51]   [FROM_CHUNK]: 173
+[09-23 13:50:51]   [FROM_DOCUMENT]: 34
+[09-23 13:50:51]   [NEXT_CHUNK]: 29
+[09-23 13:50:51]   [APPLIES_TO]: 27
+[09-23 13:50:51]   [APPLIES_IN]: 26
+[09-23 13:50:51]   [IMPOSES]: 19
+[09-23 13:50:51]   [DEFINES]: 15
+[09-23 13:50:51]   [CLASSIFIED_AS]: 11
+[09-23 13:50:51]   [ISSUED_BY]: 10
+[09-23 13:50:51]   [AMENDS]: 7
+[09-23 13:50:51]   [BROUGHT_BY]: 6
+[09-23 13:50:51]   [TARGETS]: 3
+[09-23 13:50:51]   [CONCERNS]: 3
+[09-23 13:50:51] --- DB 초기화 완료 (남은 노드: 0) ---
+[09-23 13:50:51] ========== 재구축 v3 시작 (정제 텍스트) ==========
+[09-23 13:50:51] === clean_ch1.txt 시작 (19908자) ===
+[09-23 21:34:54] === clean_ch1.txt 완료: 464.0분 ===
+[09-23 21:34:54] === clean_ch4.txt 시작 (9323자) ===
+[09-23 23:48:10] === clean_ch4.txt 완료: 133.3분 ===
+[09-23 23:48:10] === clean_ch7.txt 시작 (9001자) ===
+[09-24 02:59:28] === clean_ch7.txt 완료: 191.3분 ===
+[09-24 02:59:28] === clean_ch8.txt 시작 (7940자) ===
+[09-24 05:48:34] === clean_ch8.txt 완료: 169.1분 ===
+[09-24 05:48:34] === clean_ch9.txt 시작 (6538자) ===
+[09-24 07:26:16] === clean_ch9.txt 완료: 97.7분 ===
+[09-24 07:26:16] ========== 재구축 v3 종료 ==========
+[09-24 07:37:26] ========== 6-3 엔티티 병합 시작 ==========
+[09-24 07:37:27] before: Regulation 36, Organization 36
+[09-24 07:37:27]   [Regulation] 8개 → 'EU AI Act (Regulation (EU) 2024/1689)'
+[09-24 07:37:27]   [Regulation] 4개 → 'Digital Omnibus on AI (Regulation (EU) 2026/1744)'
+[09-24 07:37:27]   [Regulation] 2개 → 'GDPR (Regulation (EU) 2016/679)'
+[09-24 07:37:27]   [Regulation] 2개 → 'Korea AI Basic Act (Act No. 20676)'
+[09-24 07:37:27]   [Regulation] 2개 → 'PIPA (Personal Information Protection Act)'
+[09-24 07:37:27]   [Regulation] 2개 → 'California SB 942'
+[09-24 07:37:27]   [Regulation] 2개 → 'Executive Order: Ensuring a National Policy Framework for AI'
+[09-24 07:37:27]   [Organization] 2개 → 'US Equal Employment Opportunity Commission (EEOC)'
+[09-24 07:37:27]   [Organization] 2개 → 'Apple Inc.'
+[09-24 07:37:27]   [Organization] 2개 → 'Goldman Sachs Bank USA'
+[09-24 07:37:27]   [Organization] 2개 → 'Scatter Lab Inc.'
+[09-24 07:37:27]   [Organization] 2개 → 'Personal Information Protection Commission (PIPC)'
+[09-24 07:37:27]   [Organization] 2개 → 'US Department of Justice (DOJ)'
+[09-24 07:37:28]   재분류 Organization→Regulation: 1개
+[09-24 07:37:28]   노이즈 삭제: 5개
+[09-24 07:37:28] after:  Regulation 19, Organization 27
+[09-24 07:37:28] ========== 6-3 완료 ==========
